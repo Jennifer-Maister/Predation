@@ -20,7 +20,7 @@ public  class Prey implements Steppable{
 			reproduce(state, envi); 
 		}
 	}
-	
+	//hahaha. dirty
 	public void move (SimState state, Environment envi) {
 		Bag neighbors = envi.grid.getNeighborsHamiltonianDistance(x, y, 1, true, null, null, null);
 		neighbors.remove(this);
