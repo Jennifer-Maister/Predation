@@ -3,6 +3,8 @@ import sim.engine.*;
 import sim.field.grid.SparseGrid2D;
 import sim.util.Bag;
 
+//It's Egita again
+
 public class Environment extends SimState {
 	public SparseGrid2D grid; //the grid wraps around
 	public int gridWidth = 100;
