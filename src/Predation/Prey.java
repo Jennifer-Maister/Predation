@@ -14,6 +14,7 @@ public  class Prey implements Steppable{
 	 * If the breed limit is reached and there is an empty location around the current prey, a new prey is created.
 	 */
 	public void step (SimState state){
+	//trial EgiTa <3
 		Environment envi = (Environment) state;
 		move(state, envi);
 		if (breedCounter >= envi.preyBreedTime) { 
